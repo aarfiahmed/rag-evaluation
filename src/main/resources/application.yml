@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: rag-evaluation
+server:
+  port: 8080
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+rag:
+  llm:
+    enabled: false
+    base-url: ${LLM_BASE_URL:https://api.openai.com/v1}
+    api-key: ${LLM_API_KEY:}
+    model: ${LLM_MODEL:gpt-5.6-mini}
+  eval:
+    llm-judge:
+      enabled: false
+      base-url: ${EVAL_LLM_BASE_URL:${LLM_BASE_URL:https://api.openai.com/v1}}
+      api-key: ${EVAL_LLM_API_KEY:${LLM_API_KEY:}}
+      model: ${EVAL_LLM_MODEL:gpt-5.6-mini}
