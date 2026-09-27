@@ -1,5 +1,44 @@
 [
- {"id":"EV-001","question":"How many annual leave days do employees receive?","expectedDocumentIds":["employee-handbook"],"expectedAnswer":"Employees receive 20 annual leave days per calendar year.","acceptableAnswers":["Employees receive 20 annual leave days."],"metadata":{"category":"leave"}},
- {"id":"EV-002","question":"How many leave days can be carried forward?","expectedDocumentIds":["employee-handbook"],"expectedAnswer":"Employees can carry forward up to 5 unused leave days to the next calendar year.","acceptableAnswers":["Up to 5 unused leave days can be carried forward."],"metadata":{"category":"leave"}},
- {"id":"EV-003","question":"How many days per week can employees work remotely?","expectedDocumentIds":["employee-handbook"],"expectedAnswer":"Employees may work remotely up to 3 days per week, subject to approval.","acceptableAnswers":["Employees can work remotely up to 3 days per week."],"metadata":{"category":"remote-work"}}
+  {
+    "id": "EV-001",
+    "question": "How many annual leave days do employees receive?",
+    "expectedDocumentIds": [
+      "employee-handbook"
+    ],
+    "expectedAnswer": "Employees receive 20 annual leave days per calendar year.",
+    "acceptableAnswers": [
+      "Employees receive 20 annual leave days."
+    ],
+    "metadata": {
+      "category": "leave"
+    }
+  },
+  {
+    "id": "EV-002",
+    "question": "How many leave days can be carried forward?",
+    "expectedDocumentIds": [
+      "employee-handbook"
+    ],
+    "expectedAnswer": "Employees can carry forward up to 5 unused leave days to the next calendar year.",
+    "acceptableAnswers": [
+      "Up to 5 unused leave days can be carried forward."
+    ],
+    "metadata": {
+      "category": "leave"
+    }
+  },
+  {
+    "id": "EV-003",
+    "question": "How many days per week can employees work remotely?",
+    "expectedDocumentIds": [
+      "employee-handbook"
+    ],
+    "expectedAnswer": "Employees may work remotely up to 3 days per week, subject to approval.",
+    "acceptableAnswers": [
+      "Employees can work remotely up to 3 days per week."
+    ],
+    "metadata": {
+      "category": "remote-work"
+    }
+  }
 ]
